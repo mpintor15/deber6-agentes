@@ -164,4 +164,4 @@ Una solicitud A2A **no siempre crea una Task**: si es corta, el agente remoto pu
 
 **Diferencia con MCP:** MCP conecta a un agente con **herramientas y recursos** (leer archivos, consultar datos); A2A conecta a un agente con **otro agente** al que se le delega trabajo autónomo. Si el orquestador solo necesita leer `usuarios.py`, basta una herramienta local o una expuesta por MCP. Si necesita delegar a un agente remoto una revisión autónoma, se usa A2A. La elección depende de la arquitectura y de la interfaz de comunicación, **no de que la tarea consista en leer archivos**.
 
-📸 `evidencias/parte3_a2a.png` (Agent Card y secuencia)
+`evidencias/parte3_a2a.png` (Agent Card y secuencia)
