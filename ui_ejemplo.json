@@ -1,0 +1,14 @@
+{
+  "_nota": "Ilustración didáctica; no es un mensaje A2UI estándar válido.",
+  "_catalogo_permitido": ["Card", "Text", "Button"],
+  "component": "Card",
+  "children": [
+    { "component": "Text", "text": "usuarios.py · línea 21 · severidad: alta" },
+    { "component": "Text", "text": "Inyección SQL: el parámetro nombre se concatena en la consulta sin parametrizar." },
+    {
+      "component": "Button",
+      "label": "Solicitar revisión adicional",
+      "event": "pedir_revision"
+    }
+  ]
+}
