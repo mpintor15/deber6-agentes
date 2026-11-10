@@ -24,7 +24,7 @@ En la captura se ve: la línea de invocación `@revisor-seguridad`, la entrada `
 | Línea | Hallazgo del subagente | ¿Existe en `usuarios.py`? |
 |---|---|---|
 | 10 | `API_KEY` escrita en el código | Sí: `API_KEY = "sk-demo-..."` (valor de ejemplo, falso) |
-| 11 | `ADMIN_PASSWORD` escrita en el código | Sí: `ADMIN_PASSWORD = "admin123"` |
+| 11 | `ADMIN_PASSWORD` escrita en el código | Sí: `ADMIN_PASSWORD = "..."` |
 | 21 | Inyección SQL por concatenar `nombre` | Sí: `"... WHERE nombre = '" + nombre + "'"` |
 | 27 | `precio` y `porcentaje` sin validar | Sí: `precio - (precio * porcentaje / 100)` sin rango |
 | 42 | Comparación en texto plano con `==` | Sí: `return clave == ADMIN_PASSWORD` |
